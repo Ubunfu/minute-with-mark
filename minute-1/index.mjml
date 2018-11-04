@@ -16,20 +16,30 @@
             // Logo
             <mj-section mj-class="no-vpad">
                 <mj-column>
-                <mj-image width="200px" align="left" padding="5px 25px" src="resources/gm_logo.png"></mj-image>
+                    <mj-image width="200px" align="left" padding="5px 25px" src="resources/gm_logo.png"></mj-image>
                 </mj-column>
             </mj-section>
             
             // Main banner
             <mj-section mj-class="no-vpad">
                 <mj-column>
-                <mj-image padding="5px 25px" src="resources/banner-text.png"></mj-image>
+                    <mj-image padding="5px 25px" src="resources/minute-with-mark-banner.png"></mj-image>
                 </mj-column>
             </mj-section>
 
             // Description text
+            <mj-section mj-class="no-vpad">
+                <mj-column>
+                    <mj-text mj-class="tile-body">This week on Minute With Mark, Mark explains the key charactaristics of a successful and efficient development sprint cycle!</mj-text>
+                </mj-column>
+            </mj-section>
 
-            // Video
+            // Video Link
+            <mj-section mj-class="no-vpad">
+                <mj-column>
+                    <mj-image href="https://d12aupc7u1xq0v.cloudfront.net/big_buck_bunny.mp4" padding="5px 25px" src="resources/minute-1-placeholder.png"></mj-image>
+                </mj-column>
+            </mj-section>
 
             // Footer
 
