@@ -1,13 +1,14 @@
 <mjml>
     <mj-head>
         <mj-title>
-            Minute With Mark!
+            Minute with Mark!
         </mj-title>
         <mj-attributes>
             <mj-class name="no-vpad" padding="0 0" />
             <mj-class name="tile" padding="10px 0"/>
             <mj-class name="tile-header" font-size="20px" color="#0066cc" font-family="arial"/>
             <mj-class name="tile-body" line-height="1.3" font-size="13px" color="gray" font-family="arial"/>
+            <mj-class name="footer" background-color="#f9f9f9" />
         </mj-attributes>
     </mj-head>
     <mj-body>
@@ -30,7 +31,8 @@
             // Description text
             <mj-section mj-class="no-vpad">
                 <mj-column>
-                    <mj-text mj-class="tile-body">This week on Minute With Mark, Mark explains the key charactaristics of a successful and efficient development sprint cycle! Check out the below video to hear his thoughts on what you and your team need to know.</mj-text>
+                    <mj-text mj-class="tile-header">This week on Minute with Mark!...</mj-text>
+                    <mj-text mj-class="tile-body">This week on Minute with Mark, Mark explains the key charactaristics of a successful and efficient development sprint cycle! Check out the below video to hear his thoughts on what you and your team need to know.</mj-text>
                 </mj-column>
             </mj-section>
 
@@ -41,40 +43,19 @@
                 </mj-column>
             </mj-section>
 
-            // Footer
-            <mj-section mj-class="no-vpad">
+            // Slim Footer
+            <mj-section mj-class="footer">
                 <mj-column>
-                <mj-divider border-color="gray" border-style="dashed" border-width="1px"></mj-divider>
+                    <mj-image width="200px" align="left" padding="10px 20px" src="resources/logo-dk.png"></mj-image>
                 </mj-column>
-            </mj-section>
-
-            <mj-section>
                 <mj-column>
-                <mj-social
-                    mode="horizontal"
-                    inner-padding="10px"
-                    mj-class="no-vpad"
-                    display="facebook google twitter linkedin"
-                    facebook-icon-color="#395CA9"
-                    facebook-href="https://www.facebook.com/generalmotors"
-                    google-icon-color="#D84132"
-                    google-href="https://plus.google.com/u/0/+GeneralMotors/posts#+GeneralMotors/posts"
-                    twitter-icon-color="#1997F0"
-                    twitter-href="https://twitter.com/GM"
-                    linkedin-icon-color="#006CAC"
-                    linkedin-href="https://www.linkedin.com/company/general-motors/"/>
-                </mj-column>
-            </mj-section>
-
-            <mj-section mj-class="no-vpad">
-                <mj-column>
-                <mj-divider border-color="gray" border-style="dashed" border-width="1px"></mj-divider>
+                    <mj-text align="right">CEI Sharepoint | Why We're Here</mj-text>
                 </mj-column>
             </mj-section>
             
             <mj-section padding="0px 0px">
                 <mj-column>
-                <mj-text align="right" color="gray">© 2018 General Motors</mj-text>
+                    <mj-text align="right" color="gray">© 2018 General Motors</mj-text>
                 </mj-column>
             </mj-section>
 
