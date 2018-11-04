@@ -39,7 +39,7 @@
             // Video Link
             <mj-section mj-class="no-vpad">
                 <mj-column>
-                    <mj-image href="https://d12aupc7u1xq0v.cloudfront.net/big_buck_bunny.mp4" padding="5px 25px" src="resources/minute-1-placeholder.png"></mj-image>
+                    <mj-image href="https://d12aupc7u1xq0v.cloudfront.net/big_buck_bunny.mp4" padding="5px 25px" src="resources/minute-with-mark-episode-1_thumb.png"></mj-image>
                 </mj-column>
             </mj-section>
 
