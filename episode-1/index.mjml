@@ -1,5 +1,8 @@
 <mjml>
     <mj-head>
+        <mj-preview>
+            As CEI moves forward with organizational, process and tool changes, our plan is to communicate using short videos designed to encourage dialogue.
+        </mj-preview>
         <mj-title>
             Minute with Mark!
         </mj-title>
@@ -28,6 +31,13 @@
                 </mj-column>
             </mj-section>
 
+            // Intro text
+            <mj-section mj-class="no-vpad">
+                <mj-column>
+                    <mj-text mj-class="tile-body">As CEI moves forward with organizational, process and tool changes, our plan is to communicate using short videos designed to encourage dialogue.  Our success will depend on all of us being open to sharing our questions and concerns as well as working together to establish best practices.  You can get this process started by enjoying this week's Minute with Mark episode, and posting your feedback or questions to our <a href="https://teams.microsoft.com/l/channel/19%3a8c087f6311024607ba2ce94a6ec62324%40thread.skype/General?groupId=4f3a0b0c-6c96-419f-a415-b255025bfcdd&tenantId=5de110f8-2e0f-4d45-891d-bcf2218e253d">CEI TFS Tools</a> team in Microsoft Teams where all can benefit from the exchange!</mj-text>
+                </mj-column>
+            </mj-section>
+
             // Description text
             <mj-section mj-class="no-vpad">
                 <mj-column>
@@ -49,7 +59,10 @@
                     <mj-image mj-class="display-inline" width="200px" align="left" padding="10px 20px" src="https://dkzb63kjqhxlc.cloudfront.net/episode-1/logo-dk.png"></mj-image>
                 </mj-column>
                 <mj-column>
-                    <mj-text mj-class="display-inline" align="right">CEI Sharepoint | Why We're Here</mj-text>
+                    <mj-text align="right">
+                        <a style="color:#0066cc;text-decoration:none;" href="https://teams.microsoft.com/l/channel/19%3a8c087f6311024607ba2ce94a6ec62324%40thread.skype/General?groupId=4f3a0b0c-6c96-419f-a415-b255025bfcdd&tenantId=5de110f8-2e0f-4d45-891d-bcf2218e253d">CEI TFS Tools</a> | 
+                        <a style="color:#0066cc;text-decoration:none;"  href="https://teams.microsoft.com/_#/files/General?threadId=19%3A8c087f6311024607ba2ce94a6ec62324%40thread.skype&ctx=channel&context=1%2520CEI%2520Video%2520Productions">More Videos</a>
+                    </mj-text>
                 </mj-column>
             </mj-section>
             
